@@ -41,16 +41,15 @@ export default Home;
 //   }
 // }
 
-export const getStaticProps = async (context: GetStaticPropsContext) => {
-  //collection
-  const res = await fetch('http://localhost:3000/api/services')
-  const data = await res.json()
+// export const getStaticProps = async (context: GetStaticPropsContext) => {
+//   //collection
+//   const res = await fetch('http://localhost:3000/api/services')
+//   const data = await res.json()
 
-  console.log("server", services)
 
-  return {
-    props: {
-      services: data.services
-    }
-  }
-}
+//   return {
+//     props: {
+//       services: data.services
+//     }
+//   }
+// }
