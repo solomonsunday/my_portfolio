@@ -23,4 +23,4 @@ export interface IProject {
 
 }
 
-export type Category = "react" | "node" | "redux" | "bootstrap" | "rest_api" | "postgres" | "mssql" | "tailwind" | "nextjs" | "figma" | "Material UI"
+export type Category = "react" | "node" | "redux" | "bootstrap" | "rest_api" | "postgres" | "mssql" | "tailwind" | "nextjs" | "figma" | "Material UI" | "Solidity"

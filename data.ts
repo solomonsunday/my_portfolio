@@ -16,7 +16,7 @@ export const services: IService[] = [
     },
     {
         Icon: FaServer,
-        title: "Backend  Development",
+        title: "Excellent Support for Backend Development",
         about:
             "handle database, server, api using <b>Nest Framework </b> & other popular frameworks",
     },
@@ -54,12 +54,22 @@ export const languages: ISkill[] = [
     {
         Icon: BsCircleFill,
         name: "Java Script",
-        level: "60%",
+        level: "70%",
     },
     {
         Icon: BsCircleFill,
         name: "Bootstrap",
         level: "80%",
+    },
+    {
+        Icon: BsCircleFill,
+        name: "CSS",
+        level: "70%",
+    },
+    {
+        Icon: BsCircleFill,
+        name: "Tailwind",
+        level: "40%",
     },
     {
         Icon: BsCircleFill,
@@ -73,11 +83,7 @@ export const languages: ISkill[] = [
         level: "50%",
     },
 
-    {
-        Icon: BsCircleFill,
-        name: "Tailwind",
-        level: "40%",
-    },
+
     {
         Icon: BsCircleFill,
         name: "Solidity",
@@ -95,7 +101,7 @@ export const tools: ISkill[] = [
 
     {
         Icon: BsCircleFill,
-        name: "MicrodoftOffice",
+        name: "Microdoft Office",
         level: "70%",
     },
     {
@@ -103,11 +109,7 @@ export const tools: ISkill[] = [
         name: "Figma",
         level: "50%",
     },
-    {
-        Icon: BsCircleFill,
-        name: "Photoshop",
-        level: "45%",
-    },
+
 ];
 
 export const projects: IProject[] = [
@@ -151,16 +153,16 @@ export const projects: IProject[] = [
         ],
     },
 
-    // {
-    //     name: "Realtime Chat App",
-    //     image_path: "/images/kapsuul.png",
-    //     deployed_url: "https://sumit-chat.netlify.app/",
-    //     github_url: "",
-    //     category: ["node", "react"],
-    //     description:
-    //         "Basic Realtime Chat App where one can create a room can talk to each other",
-    //     key_techs: ["React", "Node", "Express", "Socket", "Bootstrap"],
-    // },
+    {
+        name: "Krypto",
+        image_path: "/images/krypto.png",
+        deployed_url: "",
+        github_url: "https://github.com/solomonsunday/krypto",
+        category: ["react", "Solidity", "tailwind"],
+        description:
+            "A Smart Contract used to transfer Etherium from one Wallet to another, built using React, Tailwind, and Solidity 0.8.0",
+        key_techs: ["React", "Solidity", "Tailwind"],
+    },
 
     // {
     //     name: "Tweeter Clone",
