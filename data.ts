@@ -5,7 +5,7 @@ import { MdDeveloperMode } from "react-icons/md";
 // import { IProject, Skill } from "./types";
 
 import { BsCircleFill } from "react-icons/bs";
-import { Iproject, IService, ISkill } from "./type";
+import { IProject, IService, ISkill } from "./type";
 
 export const services: IService[] = [
     {
@@ -18,30 +18,30 @@ export const services: IService[] = [
         Icon: FaServer,
         title: "Backend  Development",
         about:
-            "handle database, server, api using <b>Express </b> & other popular frameworks",
+            "handle database, server, api using <b>Nest Framework </b> & other popular frameworks",
     },
     {
         Icon: AiOutlineApi,
         title: "API Development",
         about:
-            "I can develop robust  REST API using <b>django-rest-api</b>  & <b>Node API</b> ",
+            "I can develop robust  REST API using <b>Asp.Net Core</b>  & <b>C#</b> ",
     },
     {
-        Icon: MdDeveloperMode,
-        title: "Competitive Coder",
-        about: "a daily problem solver in <b>HackerRank</b>  and <b>Leet Code</b> ",
+        Icon: RiComputerLine,
+        title: "Skiiled Debugger",
+        about: "a daily problem solver using <b>Browser</b>  and <b>Developer Tool</b> ",
     },
     {
         Icon: AiOutlineAntDesign,
         title: "UI/UX designer",
         about:
-            "stunning user interface designer using <b>Figma</b>  and  <b>Framer</b> ",
+            "stunning user interface designer using <b>Figma</b>",
     },
     {
-        Icon: RiComputerLine,
-        title: "Whatever",
+        Icon: MdDeveloperMode,
+        title: "Mobile Developer",
         about:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!",
+            "a junior mobile developer using <b>React Native </b>",
     },
 ];
 
@@ -101,22 +101,22 @@ export const tools: ISkill[] = [
     },
 ];
 
-export const projects: Iproject[] = [
+export const projects: IProject[] = [
     {
-        name: "COVID Tracker",
+        name: "Handjobs",
         description:
-            "KAPSUUL helps pharmacists, and pharmaceutical organizations bring their teams together in a frictionless environment to get more done",
+            "Handjobs - A market place for skilled workers to be instantly reached by everyone who needs their service",
         image_path: "/images/kapsuul.png",
-        deployed_url: "https://www.kapsuulconnect.com/",
-        github_url: "https://github.com/Dey-Sumit/covid-19-tracker",
-        category: ["react", "bootstrap", "node", "redus", "rest_api"],
+        deployed_url: "https://jobplicant-artisan-kohl.vercel.app/",
+        github_url: "https://github.com/kodlix/jobplicant-artisan",
+        category: ["react", "bootstrap", "node", "redux", "rest_api"],
         key_techs: ["React", "Chart.js", "Material UI"],
     },
     {
-        name: "Algorithm Visualizer",
+        name: "Kapsuul",
         image_path: "/images/kapsuul.png",
         deployed_url: "https://visual-algorithm.web.app/",
-        github_url: "https://github.com/Dey-Sumit/algorithm-visualizer",
+        github_url: "",
         category: ["react"],
         description:
             "An web app which shows how an algorithm (path finding or sorting) works with cool animation",
@@ -124,10 +124,10 @@ export const projects: Iproject[] = [
     },
 
     {
-        name: "Dev Talks",
+        name: "Woozeee",
         image_path: "/images/kapsuul.png",
         deployed_url: "https://dev-talks.herokuapp.com/",
-        github_url: "https://github.com/Dey-Sumit/Dev-talks",
+        github_url: "",
         category: ["node", "mongo", "react"],
         description:
             "Social Media app for developers who can share project,create posts,etc...",
@@ -146,7 +146,7 @@ export const projects: Iproject[] = [
         name: "Realtime Chat App",
         image_path: "/images/kapsuul.png",
         deployed_url: "https://sumit-chat.netlify.app/",
-        github_url: "https://github.com/Dey-Sumit/chat-app-socket.io-react-node",
+        github_url: "",
         category: ["node", "react"],
         description:
             "Basic Realtime Chat App where one can create a room can talk to each other",
@@ -157,7 +157,7 @@ export const projects: Iproject[] = [
         name: "Tweeter Clone",
         image_path: "/images/kapsuul.png",
         deployed_url: "http://sumaxtweetme.pythonanywhere.com/",
-        github_url: "https://github.com/Dey-Sumit/tweetme",
+        github_url: "",
         category: ["django", "react"],
         description:
             "First Django Project :) | Typical Social Media App where one can post,like ,comment etc",
@@ -168,7 +168,7 @@ export const projects: Iproject[] = [
         name: "Color Classification using tf.js",
         image_path: "/images/kapsuul.png",
         deployed_url: "!#",
-        github_url: "https://github.com/Dey-Sumit/color-classification",
+        github_url: "",
         category: ["express"],
         description:
             "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
@@ -178,7 +178,7 @@ export const projects: Iproject[] = [
         name: "YouTube using YouTube ",
         image_path: "/images/kapsuul.png",
         deployed_url: "https://not-utube.web.app/",
-        github_url: "https://github.com/Dey-Sumit/youtube-clone-tutorial-up",
+        github_url: "",
         category: ["express"],
         description:
             'Full(almost) Functional YouTube replica where one can login with his/her youtube account to enjoy "not-YouTube".User can like a video,comment on a video & Much More ',
@@ -192,10 +192,10 @@ export const projects: Iproject[] = [
         ],
     },
     {
-        name: "Football App",
+        name: "YouTube Clone",
         image_path: "/images/kapsuul.png",
         deployed_url: "https://o-my-goal.web.app/",
-        github_url: "https://github.com/Dey-Sumit/football-app",
+        github_url: "",
         category: ["react"],
         description:
             "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
