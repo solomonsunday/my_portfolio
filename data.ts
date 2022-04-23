@@ -48,8 +48,8 @@ export const services: IService[] = [
 export const languages: ISkill[] = [
     {
         Icon: BsCircleFill,
-        name: "Python",
-        level: "45%",
+        name: "React",
+        level: "78%",
     },
     {
         Icon: BsCircleFill,
@@ -58,45 +58,54 @@ export const languages: ISkill[] = [
     },
     {
         Icon: BsCircleFill,
-        name: "React Native",
-        level: "80%",
-    },
-    {
-        Icon: BsCircleFill,
-        name: "React",
-        level: "70%",
-    },
-    {
-        Icon: BsCircleFill,
-        name: "Django",
-        level: "80%",
-    },
-    {
-        Icon: BsCircleFill,
         name: "Bootstrap",
         level: "80%",
+    },
+    {
+        Icon: BsCircleFill,
+        name: "C#",
+        level: "45%",
+    },
+
+    {
+        Icon: BsCircleFill,
+        name: "React Native",
+        level: "50%",
+    },
+
+    {
+        Icon: BsCircleFill,
+        name: "Tailwind",
+        level: "40%",
+    },
+    {
+        Icon: BsCircleFill,
+        name: "Solidity",
+        level: "30%",
     },
 ];
 
 export const tools: ISkill[] = [
+
+    {
+        Icon: BsCircleFill,
+        name: "Version Control",
+        level: "80%",
+    },
+
+    {
+        Icon: BsCircleFill,
+        name: "MicrodoftOffice",
+        level: "70%",
+    },
     {
         Icon: BsCircleFill,
         name: "Figma",
-        level: "85%",
+        level: "50%",
     },
     {
         Icon: BsCircleFill,
         name: "Photoshop",
-        level: "45%",
-    },
-    {
-        Icon: BsCircleFill,
-        name: "Illustrator",
-        level: "60%",
-    },
-    {
-        Icon: BsCircleFill,
-        name: "Framer",
         level: "45%",
     },
 ];
@@ -128,7 +137,7 @@ export const projects: IProject[] = [
         image_path: "/images/kapsuul.png",
         deployed_url: "https://dev-talks.herokuapp.com/",
         github_url: "",
-        category: ["node", "mongo", "react"],
+        category: ["node", "postgres", "react"],
         description:
             "Social Media app for developers who can share project,create posts,etc...",
         key_techs: [
@@ -158,7 +167,7 @@ export const projects: IProject[] = [
         image_path: "/images/kapsuul.png",
         deployed_url: "http://sumaxtweetme.pythonanywhere.com/",
         github_url: "",
-        category: ["django", "react"],
+        category: ["react", "react"],
         description:
             "First Django Project :) | Typical Social Media App where one can post,like ,comment etc",
         key_techs: ["React", "Django", "Django REST API"],
@@ -169,7 +178,7 @@ export const projects: IProject[] = [
         image_path: "/images/kapsuul.png",
         deployed_url: "!#",
         github_url: "",
-        category: ["express"],
+        category: ["node"],
         description:
             "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
         key_techs: ["Express", "TensorFlow.js", "Vanilla js"],
@@ -179,7 +188,7 @@ export const projects: IProject[] = [
         image_path: "/images/kapsuul.png",
         deployed_url: "https://not-utube.web.app/",
         github_url: "",
-        category: ["express"],
+        category: ["node"],
         description:
             'Full(almost) Functional YouTube replica where one can login with his/her youtube account to enjoy "not-YouTube".User can like a video,comment on a video & Much More ',
         key_techs: [

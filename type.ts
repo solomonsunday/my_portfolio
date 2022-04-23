@@ -23,4 +23,4 @@ export interface IProject {
 
 }
 
-export type Category = "react" | "node" | "express" | "django" | "mongo" | "redux" | "bootstrap" | "rest_api" | "postgres" | "mssql" | "tailwind" | "nextjs" | "figma"
+export type Category = "react" | "node" | "redux" | "bootstrap" | "rest_api" | "postgres" | "mssql" | "tailwind" | "nextjs" | "figma"

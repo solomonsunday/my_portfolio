@@ -14,7 +14,7 @@ const Home = () => {
         <h6 className='my-3 text-xl font-bold tracking-wide'> What I offer</h6>
         <div className='grid gap-6 lg:grid-cols-2 '>
           {services.map(service => (
-            <div className='col-span-2 p-2 bg-gray-200 rounded-lg dark:bg-dark-200 md:col-span-1'>
+            <div key={service.title} className='col-span-2 p-2 bg-gray-200 rounded-lg dark:bg-dark-200 md:col-span-1'>
               <ServiceCard service={service} />
             </div>
           ))
