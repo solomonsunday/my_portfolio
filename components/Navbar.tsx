@@ -10,7 +10,6 @@ const NavItem: FunctionComponent<{ activeItem: string, setActiveItem: Function, 
             <a> <span className=" hover:text-green" onClick={() => setActiveItem(name)}>{name}</span></a>
         </Link>
         ) : null
-
     )
 }
 
