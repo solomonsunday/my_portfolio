@@ -23,17 +23,17 @@ const Resume = () => {
                     <h5 className='my-2 text-2xl font-bold'>Experience</h5>
                     <div>
                         <div className='mb-6'>
-                            <h5 className='my-2 text-xl font-bold'>FrontEnd Develoer Engineer Intermidiate</h5>
+                            <h5 className='my-2 text-xl font-bold'>FrontEnd Develoer Engineer (Inter)</h5>
                             <p className='font-semibold'>Datamax Files LTD (2021 - on)</p>
                         </div>
 
                         <div className='mb-6'>
-                            <h5 className='my-2 text-xl font-bold'>Software Engineer Intermidiate</h5>
+                            <h5 className='my-2 text-xl font-bold'>Software Engineer (Inter)</h5>
                             <p className='font-semibold'>Netop Business System LTD(2020 - 2021)</p>
                         </div>
 
                         <div className='mb-6'>
-                            <h5 className='my-2 text-xl font-bold'>Software Engineer Jr</h5>
+                            <h5 className='my-2 text-xl font-bold'>Software Engineer (Jr)</h5>
                             <p className='font-semibold'>Primatus Technology LTD(2019 - 2020)</p>
                         </div>
 

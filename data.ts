@@ -114,32 +114,32 @@ export const projects: IProject[] = [
     {
         name: "Handjobs",
         description:
-            "Handjobs - A market place for skilled workers to be instantly reached by everyone who needs their service",
-        image_path: "/images/kapsuul.png",
+            "Handjobs - A market place for skilled workers (Artisans)to be instantly reached by everyone who needs their service",
+        image_path: "/images/handjobs.png",
         deployed_url: "https://jobplicant-artisan-kohl.vercel.app/",
         github_url: "https://github.com/kodlix/jobplicant-artisan",
         category: ["react", "bootstrap", "node", "redux", "rest_api"],
-        key_techs: ["React", "Chart.js", "Material UI"],
+        key_techs: ["React", "Nodejs", "PrimeReact", "Bootstrap", "CSS"],
     },
     {
         name: "Kapsuul",
         image_path: "/images/kapsuul.png",
-        deployed_url: "https://visual-algorithm.web.app/",
+        deployed_url: "https://www.kapsuulconnect.com/",
         github_url: "",
         category: ["react"],
         description:
-            "An web app which shows how an algorithm (path finding or sorting) works with cool animation",
-        key_techs: ["React", "firebase", "Framer Motion"],
+            "A web app that helps Connect you to great minds and giving you insights to build, and grow your practice.",
+        key_techs: ["React", "Nodejs", "Postgres", "Bootstrap", "Typescript"],
     },
 
     {
         name: "Woozeee",
-        image_path: "/images/kapsuul.png",
-        deployed_url: "https://dev-talks.herokuapp.com/",
+        image_path: "/images/woozeee.png",
+        deployed_url: "https://woozeee.com/",
         github_url: "",
-        category: ["node", "postgres", "react"],
+        category: ["node", "postgres", "react", "Material UI", "tailwind"],
         description:
-            "Social Media app for developers who can share project,create posts,etc...",
+            "Socials, Movies, Get Paid, Bills Payment, Loans, All in One App...",
         key_techs: [
             "React",
             "Redux",
@@ -151,47 +151,47 @@ export const projects: IProject[] = [
         ],
     },
 
-    {
-        name: "Realtime Chat App",
-        image_path: "/images/kapsuul.png",
-        deployed_url: "https://sumit-chat.netlify.app/",
-        github_url: "",
-        category: ["node", "react"],
-        description:
-            "Basic Realtime Chat App where one can create a room can talk to each other",
-        key_techs: ["React", "Node", "Express", "Socket", "Bootstrap"],
-    },
+    // {
+    //     name: "Realtime Chat App",
+    //     image_path: "/images/kapsuul.png",
+    //     deployed_url: "https://sumit-chat.netlify.app/",
+    //     github_url: "",
+    //     category: ["node", "react"],
+    //     description:
+    //         "Basic Realtime Chat App where one can create a room can talk to each other",
+    //     key_techs: ["React", "Node", "Express", "Socket", "Bootstrap"],
+    // },
 
-    {
-        name: "Tweeter Clone",
-        image_path: "/images/kapsuul.png",
-        deployed_url: "http://sumaxtweetme.pythonanywhere.com/",
-        github_url: "",
-        category: ["react", "react"],
-        description:
-            "First Django Project :) | Typical Social Media App where one can post,like ,comment etc",
-        key_techs: ["React", "Django", "Django REST API"],
-    },
+    // {
+    //     name: "Tweeter Clone",
+    //     image_path: "/images/kapsuul.png",
+    //     deployed_url: "http://sumaxtweetme.pythonanywhere.com/",
+    //     github_url: "",
+    //     category: ["react", "react"],
+    //     description:
+    //         "First Django Project :) | Typical Social Media App where one can post,like ,comment etc",
+    //     key_techs: ["React", "Django", "Django REST API"],
+    // },
 
-    {
-        name: "Color Classification using tf.js",
-        image_path: "/images/kapsuul.png",
-        deployed_url: "!#",
-        github_url: "",
-        category: ["node"],
-        description:
-            "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
-        key_techs: ["Express", "TensorFlow.js", "Vanilla js"],
-    },
+    // {
+    //     name: "Color Classification using tf.js",
+    //     image_path: "/images/kapsuul.png",
+    //     deployed_url: "!#",
+    //     github_url: "",
+    //     category: ["node"],
+    //     description:
+    //         "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
+    //     key_techs: ["Express", "TensorFlow.js", "Vanilla js"],
+    // },
 
-    {
-        name: "YouTube Clone",
-        image_path: "/images/kapsuul.png",
-        deployed_url: "https://o-my-goal.web.app/",
-        github_url: "",
-        category: ["react"],
-        description:
-            "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
-        key_techs: ["React", "Redux", "Firebase Auth", "API", "Sass", "Bootstrap"],
-    },
+    // {
+    //     name: "YouTube Clone",
+    //     image_path: "/images/kapsuul.png",
+    //     deployed_url: "https://o-my-goal.web.app/",
+    //     github_url: "",
+    //     category: ["react"],
+    //     description:
+    //         "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
+    //     key_techs: ["React", "Redux", "Firebase Auth", "API", "Sass", "Bootstrap"],
+    // },
 ];
