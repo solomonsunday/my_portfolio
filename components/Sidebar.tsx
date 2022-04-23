@@ -3,6 +3,7 @@ import React from 'react';
 import { AiFillGithub, AiFillLinkedin, AiFillYoutube, } from 'react-icons/ai';
 import { GoLocation } from 'react-icons/go';
 import { GiTie } from 'react-icons/gi';
+import { BsStackOverflow } from "react-icons/bs";
 
 
 import { useTheme } from 'next-themes'
@@ -22,7 +23,7 @@ const Sidebar = () => {
             />
             <h3 className='my-4 text-3xl font-medium tracking-wider font-kaushan'><span className='text-green'>Solomon </span> Sunday</h3>
             <p className='px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 dark:bg-black-500'>
-                Web Develper
+                Software Developer
             </p>
 
             <a className='flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500'
@@ -34,14 +35,14 @@ const Sidebar = () => {
             </a>
             {/* Social Icon */}
             <div className='flex justify-around w-9/12 mx-auto my-5 text-green-500 md:w-full'>
-                <a href=''>
+                <a target="_blank" href='https://github.com/solomonsunday'>
                     <AiFillGithub className='w-8 h-8 cursor-pointer ' />
                 </a>
-                <a href=''>
+                <a target="_blank" href='https://www.linkedin.com/in/solomonsunday/'>
                     <AiFillLinkedin className='w-8 h-8 cursor-pointer' />
                 </a>
-                <a href=''>
-                    <AiFillYoutube className='w-8 h-8 cursor-pointer' />
+                <a target="_blank" href='https://stackoverflow.com/users/12233128/solomon-sunday'>
+                    <BsStackOverflow className='w-8 h-8 cursor-pointer' />
                 </a>
             </div>
             {/* Address */}
@@ -52,7 +53,7 @@ const Sidebar = () => {
                     <span>Lagos, Nigeria</span>
                 </div>
                 <p className='my-2'>schinoyerem007@gmail.com</p>
-                <p className='my-2'>08065907281</p>
+                <p className='my-2'>+2348065907281</p>
             </div>
             {/* Email btn */}
             <button

@@ -183,23 +183,7 @@ export const projects: IProject[] = [
             "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
         key_techs: ["Express", "TensorFlow.js", "Vanilla js"],
     },
-    {
-        name: "YouTube using YouTube ",
-        image_path: "/images/kapsuul.png",
-        deployed_url: "https://not-utube.web.app/",
-        github_url: "",
-        category: ["node"],
-        description:
-            'Full(almost) Functional YouTube replica where one can login with his/her youtube account to enjoy "not-YouTube".User can like a video,comment on a video & Much More ',
-        key_techs: [
-            "React",
-            "Redux",
-            "Firebase Auth",
-            "YouTube API",
-            "Sass",
-            "Bootstrap",
-        ],
-    },
+
     {
         name: "YouTube Clone",
         image_path: "/images/kapsuul.png",
