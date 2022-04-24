@@ -20,6 +20,7 @@ const Sidebar = () => {
             <Image src="/static/solo.jpg"
                 alt="user_averter" width="180" height="200"
                 className='w-32 h-32 mx-auto border rounded-full'
+                quality={100}
             />
             <h3 className='my-4 text-3xl font-medium tracking-wider font-kaushan'><span className='text-green'>Solomon </span> Sunday</h3>
             <p className='px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 dark:bg-black-500'>

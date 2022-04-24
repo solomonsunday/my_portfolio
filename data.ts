@@ -18,7 +18,7 @@ export const services: IService[] = [
         Icon: FaServer,
         title: "Excellent Support for Backend Development",
         about:
-            "handle database, server, api using <b>Nest Framework </b> & other popular frameworks",
+            "Handle database, server, api using <b>Nest Framework </b> & other popular frameworks",
     },
     {
         Icon: AiOutlineApi,
@@ -29,19 +29,19 @@ export const services: IService[] = [
     {
         Icon: RiComputerLine,
         title: "Skiiled Debugger",
-        about: "a daily problem solver using <b>Browser</b>  and <b>Developer Tool</b> ",
+        about: "A daily problem solver using <b>Browser</b>  and <b>Developer Tool</b> ",
     },
     {
         Icon: AiOutlineAntDesign,
         title: "UI/UX designer",
         about:
-            "stunning user interface designer using <b>Figma</b>",
+            "Stunning user interface designer using <b>Figma</b>",
     },
     {
         Icon: MdDeveloperMode,
         title: "Mobile Developer",
         about:
-            "a junior mobile developer using <b>React Native </b>",
+            "A junior mobile developer using <b>React Native </b>",
     },
 ];
 
@@ -114,6 +114,7 @@ export const tools: ISkill[] = [
 
 export const projects: IProject[] = [
     {
+        id: 1,
         name: "Handjobs",
         description:
             "Handjobs - A market place for skilled workers (Artisans)to be instantly reached by everyone who needs their service",
@@ -124,6 +125,7 @@ export const projects: IProject[] = [
         key_techs: ["React", "Nodejs", "PrimeReact", "Bootstrap", "CSS"],
     },
     {
+        id: 2,
         name: "Kapsuul",
         image_path: "/images/kapsuul.png",
         deployed_url: "https://www.kapsuulconnect.com/",
@@ -135,6 +137,7 @@ export const projects: IProject[] = [
     },
 
     {
+        id: 3,
         name: "Woozeee",
         image_path: "/images/woozeee.png",
         deployed_url: "https://woozeee.com/",
@@ -154,14 +157,15 @@ export const projects: IProject[] = [
     },
 
     {
+        id: 4,
         name: "Krypto",
         image_path: "/images/krypto.png",
         deployed_url: "",
         github_url: "https://github.com/solomonsunday/krypto",
-        category: ["react", "Solidity", "tailwind"],
+        category: ["react", "solidity", "tailwind"],
         description:
             "A Smart Contract used to transfer Etherium from one Wallet to another, built using React, Tailwind, and Solidity 0.8.0",
-        key_techs: ["React", "Solidity", "Tailwind"],
+        key_techs: ["React", "solidity", "Tailwind"],
     },
 
     // {

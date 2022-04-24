@@ -7,7 +7,7 @@ import { route } from 'next/dist/server/router';
 const NavItem: FunctionComponent<{ activeItem: string, setActiveItem: Function, name: string, route: string }> = ({ activeItem, name, route, setActiveItem }) => {
     return (
         activeItem !== name ? (<Link href={route}>
-            <a> <span className=" hover:text-green" onClick={() => setActiveItem(name)}>{name}</span></a>
+            <a> <span className="cursor-pointer  hover:text-green" onClick={() => setActiveItem(name)}>{name}</span></a>
         </Link>
         ) : null
     )

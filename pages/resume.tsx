@@ -1,13 +1,17 @@
+import { motion } from 'framer-motion'
 import React from 'react'
 import { BsCircleFill } from 'react-icons/bs'
+import { fadingUP, routeAnimation } from '../animations'
 import Bar from '../components/Bar'
 import { languages, tools } from '../data'
 
 const Resume = () => {
+
     return (
-        <div className='px-6 py-2'>
+        <motion.div variants={routeAnimation}
+            initial="initial" animate="animate" className='px-6 py-2'>
             {/* //education */}
-            <div className="grid gap-6 md:grid-cols-2">
+            <motion.div variants={fadingUP} initial="initial" animate="animate" className="grid gap-6 md:grid-cols-2">
                 <div>
                     <h5 className='my-2 text-2xl font-bold'>Education</h5>
                     <div className='flex items-center'>
@@ -31,7 +35,7 @@ const Resume = () => {
                     </div>
                 </div>
 
-                <div>
+                <motion.div variants={fadingUP} initial="initial" animate="animate" >
                     <h5 className='my-2 text-2xl font-bold'>Experience</h5>
                     <div>
                         <div className='mb-6'>
@@ -55,9 +59,9 @@ const Resume = () => {
                         <p className='font-semibold'>TCS (2021 - on)</p> */}
 
                     </div>
-                </div>
+                </motion.div>
 
-            </div>
+            </motion.div>
 
             {/* languages and tools  */}
 
@@ -88,7 +92,7 @@ const Resume = () => {
 
 
             </div>
-        </div>
+        </motion.div>
     )
 }
 
