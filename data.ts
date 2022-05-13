@@ -167,6 +167,17 @@ export const projects: IProject[] = [
             "A Smart Contract used to transfer Etherium from one Wallet to another, built using React, Tailwind, and Solidity 0.8.0",
         key_techs: ["React", "solidity", "Tailwind"],
     },
+    {
+        id: 5,
+        name: "Discover Coffee Store Near You",
+        image_path: "/images/coffee_store_app.png",
+        deployed_url: "",
+        github_url: "https://github.com/solomonsunday/Discover-Coffee-store",
+        category: ["react", "nextjs", "bootstrap",],
+        description: "An application thats helps use to discover coffee store near and around you",
+        key_techs: ["React", "Bootstrap", "Nextjs"]
+
+    }
 
     // {
     //     name: "Tweeter Clone",
