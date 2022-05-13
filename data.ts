@@ -174,7 +174,7 @@ export const projects: IProject[] = [
         deployed_url: "",
         github_url: "https://github.com/solomonsunday/Discover-Coffee-store",
         category: ["react", "nextjs", "bootstrap",],
-        description: "An application thats helps use to discover coffee store near and around you",
+        description: "An application thats helps user to discover coffee stores near and around them",
         key_techs: ["React", "Bootstrap", "Nextjs"]
 
     }
