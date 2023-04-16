@@ -1,12 +1,13 @@
 ## About This Application
 
-This is a Nextjs APPLICATION, It contain my Portfolio , i tried to to put together some of the public projects that i have worked ojn in the past and also state the tech tools that were used to build the application.
+This is a Nextjs APPLICATION, It contain my Portfolio , i tried to put together some of the public projects that i've worked on in the past and also state the tech stacks and tools that were used in build the application.
 
-## Tech Stack Used in Building This Project
+## Tech Stack Used
 
 _Nextjs_
 _Tailwind css_
 _Framer Motion_
+_Docker_
 
 - The project has also been deploy on versel
 - check it out: https://www.thedrycleanersson.com
