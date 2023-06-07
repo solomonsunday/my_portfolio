@@ -21,13 +21,13 @@ const Resume = () => {
         className="grid gap-6 md:grid-cols-2"
       >
         <div>
-          <h5 className="my-2 text-2xl font-bold">Education</h5>
+          <h5 className="my-2 text-2xl font-bold text-blue-300 ">Education</h5>
           <div className="flex items-center">
             {/* <div className='mx-2'>
                             <BsCircleFill fontSize={10} />
                         </div> */}
             <div className="mb-5">
-              <h2 className="my-2 text-xl font-bold">
+              <h2 className="my-2 text-xl font-bold underline">
                 Nnamdi Azikiwe University{" "}
               </h2>
               <p className="font-semibold">Computer Science ( 2013-2017 )</p>
@@ -38,16 +38,24 @@ const Resume = () => {
                             <BsCircleFill fontSize={10} />
                         </div> */}
             <div className="mb-5">
-              <h5 className="my-2 text-xl font-bold">Udacity </h5>
+              <h5 className="my-2 text-xl font-bold underline">Udacity </h5>
               <p className="font-semibold">FrontEnd Developer( 2018 )</p>
+            </div>
+          </div>
+          <div className="flex items-center">
+            {/* <div className='mx-2'>
+                            <BsCircleFill fontSize={10} />
+                        </div> */}
+            <div className="mb-5">
+              <h5 className="my-2 text-xl font-bold underline">Udacity </h5>
               <p className="font-semibold">
-                Nanodegree, Cloud DevOps Engineer( 2022 )
+                Nanodegree Cloud DevOps Engineer (May 2022 - Aug 2022 )
               </p>
             </div>
           </div>
           <div className="flex items-center">
             <div>
-              <h5 className="my-2 text-xl font-bold">
+              <h5 className="my-2 text-xl font-bold underline">
                 Zero To Mastery Academy{" "}
               </h5>
               <p className="font-semibold">Next Js( 2022 )</p>
@@ -59,10 +67,10 @@ const Resume = () => {
         </div>
 
         <motion.div variants={fadingUP} initial="initial" animate="animate">
-          <h5 className="my-2 text-2xl font-bold">Experience</h5>
+          <h5 className="my-2 text-2xl font-bold text-blue-300 ">Experience</h5>
           <div>
             <div className="mb-6">
-              <h5 className="my-2 text-xl font-bold">
+              <h5 className="my-2 text-xl font-bold underline">
                 FrontEnd Developer Engineer{" "}
                 <span className="text-sm">(Lead)</span>
                 <span className="text-sm"></span>
@@ -72,14 +80,14 @@ const Resume = () => {
               </p>
             </div>
             <div className="mb-6">
-              <h5 className="my-2 text-xl font-bold">
+              <h5 className="my-2 text-xl font-bold underline">
                 FrontEnd Developer Engineer <span className="text-sm"></span>
               </h5>
               <p className="font-semibold">Datamax Files LTD (2021 - 2022)</p>
             </div>
 
             <div className="mb-6">
-              <h5 className="my-2 text-xl font-bold">
+              <h5 className="my-2 text-xl font-bold underline">
                 Software Engineer{" "}
                 <span className="text-sm">(Intermidiate)</span>
               </h5>
@@ -89,7 +97,7 @@ const Resume = () => {
             </div>
 
             <div className="mb-6">
-              <h5 className="my-2 text-xl font-bold">
+              <h5 className="my-2 text-xl font-bold underline">
                 Software Engineer <span className="text-sm">(Jr)</span>
               </h5>
               <p className="font-semibold">
@@ -109,7 +117,9 @@ const Resume = () => {
 
       <div className="grid gap-6 md:grid-cols-2">
         <div>
-          <h5 className="my-3 text-2xl font-bold">Languages & Frameworks</h5>
+          <h5 className="my-3 text-2xl font-bold text-blue-300">
+            Languages & Frameworks
+          </h5>
 
           <div className="my-2">
             {languages.map((Language) => (
@@ -119,7 +129,9 @@ const Resume = () => {
         </div>
 
         <div>
-          <h5 className="my-3 text-2xl font-bold">Tools & Softwares</h5>
+          <h5 className="my-3 text-2xl font-bold text-blue-300">
+            Tools & Softwares
+          </h5>
 
           <div className="my-2">
             {tools.map((tool) => (

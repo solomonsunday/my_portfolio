@@ -5,32 +5,32 @@ import { MdDeveloperMode } from "react-icons/md";
 // import { IProject, Skill } from "./types";
 
 import { BsCircleFill } from "react-icons/bs";
-import { IProject, IService, ISkill } from "./type";
+import { ICertificate, IProject, IService, ISkill } from "./type";
 
 export const services: IService[] = [
   {
     Icon: RiComputerLine,
     title: "Frontend Development",
     about:
-      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>   and <b>React.js</b> ",
+      "I build beautiful, functional interactive and scalable SPA using latest tech stacks <b> HTML5</b>,<b>Tailwind</b> and <b>Nextjs</b> ",
   },
   {
     Icon: FaServer,
     title: "Excellent Support for Backend Development",
     about:
-      "Handle database, server, api using <b>Nest Framework </b> & other popular frameworks",
+      "Query database, server, Rest API using <b>Nestjs Framework </b> & ASP.Net Core",
   },
   {
     Icon: AiOutlineApi,
     title: "API Development",
     about:
-      "I can develop robust  REST API using <b>Asp.Net Core</b>  & <b>C#</b> ",
+      "I develop robust  REST API using <b>Asp.Net Core</b> & <b>Nodejs</b> ",
   },
   {
     Icon: RiComputerLine,
     title: "Skiiled Debugger",
     about:
-      "A daily problem solver using <b>Browser</b>  and <b>Developer Tool</b> ",
+      "A daily problem solver using <b>Browser Developer Tool</b>  and <b>Vs Code</b> ",
   },
   {
     Icon: AiOutlineAntDesign,
@@ -40,24 +40,45 @@ export const services: IService[] = [
   {
     Icon: MdDeveloperMode,
     title: "Mobile Developer",
-    about: "A junior mobile developer using <b>React Native </b>",
+    about: "Develop interactive mobile Apps using <b>React Native </b>",
   },
 ];
 
 export const languages: ISkill[] = [
   {
     Icon: BsCircleFill,
-    name: "React",
-    level: "78%",
+    name: "JavaScript",
+    level: "80%",
   },
   {
     Icon: BsCircleFill,
-    name: "Java Script",
+    name: "Reactjs",
+    level: "88%",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Nextjs",
     level: "70%",
   },
   {
     Icon: BsCircleFill,
-    name: "Bootstrap",
+    name: "Nodejs",
+    level: "70%",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Nestjs",
+    level: "60%",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "TypeScript",
+    level: "70%",
+  },
+
+  {
+    Icon: BsCircleFill,
+    name: "Bootstrap 5",
     level: "80%",
   },
   {
@@ -68,7 +89,7 @@ export const languages: ISkill[] = [
   {
     Icon: BsCircleFill,
     name: "Tailwind",
-    level: "40%",
+    level: "80%",
   },
   {
     Icon: BsCircleFill,
@@ -87,35 +108,70 @@ export const languages: ISkill[] = [
     name: "Solidity",
     level: "30%",
   },
-
-  {
-    Icon: BsCircleFill,
-    name: "Redux",
-    level: "80%",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Nextjs",
-    level: "70%",
-  },
 ];
 
 export const tools: ISkill[] = [
   {
     Icon: BsCircleFill,
     name: "Version Control",
+    level: "90%",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "AWS",
+    level: "80%",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "GCP",
+    level: "60%",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Docker",
+    level: "60%",
+  },
+
+  {
+    Icon: BsCircleFill,
+    name: "React-Redux",
+    level: "80%",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "React Toolkit",
+    level: "60%",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "PostgreSQL ",
+    level: "70%",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "MongoDB",
     level: "80%",
   },
 
   {
     Icon: BsCircleFill,
-    name: "Microsoft Office",
-    level: "70%",
+    name: "GraphQL",
+    level: "50%",
   },
   {
     Icon: BsCircleFill,
     name: "Figma",
-    level: "50%",
+    level: "80%",
+  },
+];
+
+export const certifications: ICertificate[] = [
+  {
+    id: 1,
+    name: "Cloud DevOps Engineer",
+    image_path: "/images/certs/Cloud_Engineer.pdf",
+    description: "CICD",
+    deployed_url: "http://www.example.com",
   },
 ];
 
