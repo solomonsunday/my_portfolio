@@ -12,7 +12,7 @@ export const services: IService[] = [
     Icon: RiComputerLine,
     title: "Frontend Development",
     about:
-      "I build beautiful, functional interactive and scalable SPA using latest tech stacks <b> HTML5</b>,<b>Tailwind</b> and <b>Nextjs</b> ",
+      "With 6+ years of expertise in crafting immersive digital experiences. With a keen eye for detail and a passion for innovation ",
   },
   {
     Icon: FaServer,
@@ -178,17 +178,53 @@ export const certifications: ICertificate[] = [
 export const projects: IProject[] = [
   {
     id: 1,
-    name: "Handjobs",
+    name: "Coventi",
     description:
-      "Handjobs - A market place for skilled workers (Artisans)to be instantly reached by everyone who needs their service",
-    image_path: "/images/handjobs.png",
-    deployed_url: "https://handjobs-web.vercel.app/",
-    github_url: "https://github.com/solomonsunday/handjobs-web",
-    category: ["react", "bootstrap", "node", "redux", "rest_api"],
-    key_techs: ["React", "Nodejs", "PrimeReact", "Bootstrap", "CSS"],
+      "A streaming applcation that helps you experience Live, Anywhere - Coventi ensures your events are engaging",
+    image_path: "/images/coventi.png",
+    deployed_url: "https://coventi.co/",
+    github_url:
+      "https://dev.azure.com/dokunbamigboye2002/Coventi%20Event%20Creation%20Frontend/_git/Coventi%20Event%20Creation%20Frontend/branches",
+    category: [
+      "react",
+      "typescript",
+      "tailwind",
+      "nodeJS",
+      "redux-toolkit",
+      "contex-API",
+      "nextJS",
+    ],
+    key_techs: [
+      "NextJS",
+      "Typescript",
+      "Redux-Toolkit",
+      " Context-API",
+      "NodeJS",
+      "Tailwind",
+      "CSS",
+    ],
   },
   {
     id: 2,
+    name: "Persist Africa",
+    image_path: "/images/persistAfrica.png",
+    deployed_url: "https://persistafrica.com/",
+    github_url:
+      "https://github.com/ExquisAppFactory/talentbuildersapp/tree/dev",
+    category: ["react", "nextjs", "bootstrap", "redux"],
+    description:
+      "Embark on a journey of cultural exploration. Uncover the secrets of ancient craftsmanship, artistic traditions, and indigenous wisdom that have shaped Africa’s diverse heritage.",
+    key_techs: [
+      "React",
+      "Bootstrap",
+      "Nextjs",
+      "Redux",
+      "Styled Component",
+      "AWS",
+    ],
+  },
+  {
+    id: 3,
     name: "Kapsuul",
     image_path: "/images/kapsuul.png",
     deployed_url: "https://www.kapsuulconnect.com/",
@@ -200,12 +236,19 @@ export const projects: IProject[] = [
   },
 
   {
-    id: 3,
+    id: 4,
     name: "Woozeee",
     image_path: "/images/woozeee.png",
     deployed_url: "https://woozeee.com/",
     github_url: "",
-    category: ["node", "postgres", "react", "Material UI", "redux", "tailwind"],
+    category: [
+      "nodeJS",
+      "postgres",
+      "react",
+      "Material UI",
+      "redux",
+      "tailwind",
+    ],
     description:
       "Socials, Movies, Get Paid, Bills Payment, Loans, All in One App...",
     key_techs: [
@@ -231,7 +274,7 @@ export const projects: IProject[] = [
     key_techs: ["React", "solidity", "Tailwind"],
   },
   {
-    id: 5,
+    id: 6,
     name: "Discover Coffee Store Near You",
     image_path: "/images/coffee_store_app.png",
     deployed_url: "",
@@ -240,25 +283,6 @@ export const projects: IProject[] = [
     description:
       "An application thats helps user to discover coffee stores near and around them",
     key_techs: ["React", "Bootstrap", "Nextjs"],
-  },
-
-  {
-    id: 6,
-    name: "Persist Africa",
-    image_path: "/images/persistAfrica.png",
-    deployed_url: "https://dev.app.persistafrica.com/",
-    github_url:
-      "https://github.com/ExquisAppFactory/talentbuildersapp/tree/dev",
-    category: ["react", "nextjs", "bootstrap", "redux"],
-    description: "An application that helps africa learn any native skill",
-    key_techs: [
-      "React",
-      "Bootstrap",
-      "Nextjs",
-      "redux",
-      "Styled Component",
-      "AWS",
-    ],
   },
 
   // {
