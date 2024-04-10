@@ -1,38 +1,53 @@
-import { motion } from 'framer-motion';
-import { GetStaticPropsContext } from 'next';
-import React from 'react';
-import ServiceCard from '../components/ServiceCard';
-import { services } from '../data';
-import { fadingUP, routeAnimation, stagger } from '../animations'
+import { motion } from "framer-motion";
+import { GetStaticPropsContext } from "next";
+import React from "react";
+import ServiceCard from "../components/ServiceCard";
+import { services } from "../data";
+import { fadingUP, routeAnimation, stagger } from "../animations";
 
 const Home = () => {
-
   return (
-    <motion.div className='flex flex-col flex-grow px-6 pt-1'
-      variants={routeAnimation} initial="initial" animate="animate"
+    <motion.div
+      className="flex flex-col flex-grow px-6 pt-1"
+      variants={routeAnimation}
+      initial="initial"
+      animate="animate"
     >
       <h5 className="my-3 font-medium">
-        Knowledgeable Software Engineer adept at creating successful Application that meets customer&apos;s needs. Specializing in collaborating with any customers to gather requirements, produce plans and improve designs for usability and functionality. Experienced working with team to produce impactful, leading-edge Application that engage customers and deliver business results. Well-versed in design standards and user preferences.
+        Experienced Software Engineer skilled in crafting successful
+        applications tailored to meet customer needs. Proficient in
+        collaborating with clients to gather requirements, develop comprehensive
+        plans, and enhance designs for optimal usability and functionality.
+        Demonstrated track record of working collaboratively within teams to
+        deliver impactful, cutting-edge solutions that engage customers and
+        drive business outcomes. Well-versed in design patterns and user
+        preferences, ensuring an intuitive and enjoyable user experience.
       </h5>
-      <div className='flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 ' style={{ marginLeft: '-1.5rem', marginRight: '-1.5rem' }}>
-        <h6 className='my-3 text-xl font-bold tracking-wide'> What I offer</h6>
-        <motion.div className='grid gap-6 lg:grid-cols-2'
-          variants={stagger} initial="initial" animate="animate">
-          {services.map(service => (
+      <div
+        className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 "
+        style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
+      >
+        <h6 className="my-3 text-xl font-bold tracking-wide"> What I offer</h6>
+        <motion.div
+          className="grid gap-6 lg:grid-cols-2"
+          variants={stagger}
+          initial="initial"
+          animate="animate"
+        >
+          {services.map((service) => (
             <motion.div
               variants={fadingUP}
               key={service.title}
-              className='col-span-2 p-2 bg-gray-200 rounded-lg dark:bg-dark-200 md:col-span-1'
+              className="col-span-2 p-2 bg-gray-200 rounded-lg dark:bg-dark-200 md:col-span-1"
             >
               <ServiceCard service={service} />
             </motion.div>
-          ))
-          }
+          ))}
         </motion.div>
       </div>
     </motion.div>
-  )
-}
+  );
+};
 
 export default Home;
 
@@ -44,7 +59,7 @@ export default Home;
 //   console.log("server", services)
 
 //   return {
-//     props: { 
+//     props: {
 //       services: data.services
 //     }
 //   }
@@ -54,7 +69,6 @@ export default Home;
 //   //collection
 //   const res = await fetch('http://localhost:3000/api/services')
 //   const data = await res.json()
-
 
 //   return {
 //     props: {
